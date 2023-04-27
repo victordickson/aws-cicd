@@ -7,6 +7,6 @@ First, test locally by running the following.
 ```
 go run main.go
 
-docker run -t hello .
+docker build -t hello .
 
 docker run --rm -it --name hello -p 0.0.0.0:8080:8080 hello
